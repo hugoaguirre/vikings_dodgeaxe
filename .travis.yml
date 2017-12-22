@@ -1,11 +1,12 @@
 sudo: true
 language: python
 
+matrix:
+    - os: linux
+
 before_install:
-    - if ["${TRAVIS_OS_NAME}" = "linux"]; then
-        sudo apt-get -qq update &&
-        pip install pygame
-      fi
+    - if [ "{TRAVIS_OS_NAME}" = "linux" ]; then
+      pip install pygame;
 
 notifications:
     email: false
