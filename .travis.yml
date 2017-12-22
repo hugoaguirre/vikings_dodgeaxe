@@ -1,0 +1,16 @@
+language: python
+
+before_install:
+    - sudo apt-get -qq update;
+
+python:
+    - "2.7"
+
+install:
+    - pip install pygame;
+
+script:
+    - python src/vikings_dodgeaxe.py
+
+notifications:
+    email: false
