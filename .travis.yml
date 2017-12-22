@@ -1,14 +1,13 @@
-sudo: true
 language: python
 
 before_install:
-    - sudo apt-get -qq update;
+    - apt-get -qq update;
 
 python:
     - "2.7"
 
 install:
-    - sudo pip install pygame;
+    - pip install pygame;
 
 script:
     - python src/vikings_dodgeaxe.py
