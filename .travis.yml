@@ -10,7 +10,7 @@ python:
 install:
     - sudo pip install pygame;
 
-scrpit:
+script:
     - py.test
 
 notifications:
