@@ -1,3 +1,5 @@
+![Alt text](https://travis-ci.org/hugoaguirre/vikings_    dodgeaxe.svg?branch=master)
+
 # Vikings: Dodeaxe
 A dodgeball game with Vikings and of course axes.
 
