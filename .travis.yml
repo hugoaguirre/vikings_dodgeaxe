@@ -11,6 +11,7 @@ install:
     - sudo pip install pygame;
 
 script:
+    - python src/vikings_dodgeaxe.py
 
 notifications:
     email: false
