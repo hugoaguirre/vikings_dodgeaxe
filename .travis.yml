@@ -6,6 +6,5 @@ before_install:
         sudo apt-get -qq update &&
         pip install pygame
       fi
-
 notifications:
     email: false
